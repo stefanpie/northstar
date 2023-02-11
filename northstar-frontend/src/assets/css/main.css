@@ -24,7 +24,7 @@ html {
   color: var(--ct-light);
 }
 
-:root{
+:root {
   --bw: 1px;
   --bs: solid;
 }
