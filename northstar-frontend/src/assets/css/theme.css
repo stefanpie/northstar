@@ -1,0 +1,15 @@
+@import url('./colors.css');
+
+:root {
+  --ct-primary: var(--color-gray-900);
+  --ct-secondary: var(--color-gray-800);
+  --ct-border: var(--color-gray-700);
+  --ct-success: var(--color-green-500);
+  --ct-info: var(--color-blue-500);
+  --ct-warning: var(--color-yellow-500);
+  --ct-danger: var(--color-red-500);
+  --ct-light: var(--color-gray-200);
+  --ct-dark: var(--color-gray-900);
+  --ct-white: var(--color-white);
+  --ct-black: #var(--color-black);
+}

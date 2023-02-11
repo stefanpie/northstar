@@ -1,0 +1,20 @@
+.cask-button {
+  transition: background-color 0.05s ease-in-out;
+  border: 1px solid var(--color-gray-300);
+  background-color: var(--color-white);
+  padding: 0.4rem 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+  user-select: none;
+  text-decoration: none;
+}
+
+.cask-button:hover {
+  border-color: var(--color-gray-400);
+  background-color: var(--color-gray-200);
+}
+
+.cask-button:active {
+  border-color: var(--color-gray-400);
+  background-color: var(--color-gray-300);
+}
