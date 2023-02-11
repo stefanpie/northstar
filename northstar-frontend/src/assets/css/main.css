@@ -2,6 +2,7 @@
 @import url('./colors.css');
 @import url('./theme.css');
 @import url('./buttons.css');
+@import url('./inputs.css');
 
 body,
 html {

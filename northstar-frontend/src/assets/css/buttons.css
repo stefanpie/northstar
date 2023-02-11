@@ -1,4 +1,4 @@
-.cask-button {
+button {
   transition: background-color 0.05s ease-in-out;
   border: 1px solid var(--color-gray-300);
   background-color: var(--color-white);
@@ -9,12 +9,12 @@
   text-decoration: none;
 }
 
-.cask-button:hover {
+button:hover {
   border-color: var(--color-gray-400);
   background-color: var(--color-gray-200);
 }
 
-.cask-button:active {
+button:active {
   border-color: var(--color-gray-400);
   background-color: var(--color-gray-300);
 }

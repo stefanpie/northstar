@@ -1,0 +1,8 @@
+@import url('./colors.css');
+
+input {
+    padding: 0.5rem 0.5rem;
+    background-color: var(--ct-secondary);
+    border: var(--bw) var(--bs) var(--ct-border);
+    border-radius: 0.2rem;
+}
