@@ -14,6 +14,7 @@ DATA_DIR = Path("./data")
 
 
 def download_hurdat(data_dir=DATA_DIR):
+    data_dir.mkdir(exist_ok=True)
     hurdat_dir = data_dir / "hurdat"
     hurdat_dir.mkdir(exist_ok=True)
     url = "https://www.nhc.noaa.gov/data/hurdat/hurdat2-1851-2021-100522.txt"
